@@ -1,0 +1,568 @@
+[
+ {
+  "id": "hay_estar",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "HAY / ESTÁ(N) — presentar y situar",
+  "intro": "hay presenta algo (existencia); está(n) sitúa algo que ya conocemos.",
+  "points": [
+   "hay + un / una / unos / unas / número (nunca con el/la)",
+   "está / están + el / la / los / las (lugar conocido)",
+   "hay no cambia nunca: hay un museo · hay dos parques"
+  ],
+  "examples": [
+   "En mi ciudad hay un parque.",
+   "El museo está al lado de la catedral.",
+   "¿Dónde está la estación?"
+  ],
+  "tip": "hay = there is/are · está(n) = is/are (located)."
+ },
+ {
+  "id": "articulos",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "Los artículos: el/la/los/las · un/una/unos/unas",
+  "intro": "El artículo concuerda en género y número con el nombre.",
+  "table": {
+   "head": ["", "masculino", "femenino"],
+   "rows": [
+    ["definido sing.", "el", "la"],
+    ["definido plural", "los", "las"],
+    ["indefinido sing.", "un", "una"],
+    ["indefinido plural", "unos", "unas"]
+   ]
+  },
+  "tip": "a + el → al · de + el → del (siempre)."
+ },
+ {
+  "id": "genero",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "El género de los nombres",
+  "intro": "Casi todo nombre es masculino o femenino.",
+  "points": [
+   "-o → suele ser masculino: el libro, el museo",
+   "-a → suele ser femenino: la casa, la tienda",
+   "-ción / -sión / -dad → femenino: la estación, la ciudad"
+  ],
+  "examples": [
+   "el parque (masc.) · la plaza (fem.)",
+   "Excepciones: el día, la mano, el mapa, el problema"
+  ]
+ },
+ {
+  "id": "ser_estar",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "SER vs ESTAR",
+  "intro": "Dos verbos para «to be». SER = identidad; ESTAR = estado y lugar.",
+  "table": {
+   "head": ["SER", "ESTAR"],
+   "rows": [
+    ["identidad: Soy María", "lugar: Estoy en casa"],
+    ["origen: Es de España", "estado: Estoy cansado"],
+    ["hora: Son las tres", "en marcha: Está lloviendo"]
+   ]
+  },
+  "tip": "Lugar de un sitio permanente: Madrid está en España (siempre estar)."
+ },
+ {
+  "id": "ir",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "El verbo IR (+ a / al / a la)",
+  "intro": "Verbo irregular muy frecuente. a + el → al.",
+  "table": {
+   "head": ["", "ir"],
+   "rows": [
+    ["yo", "voy"],
+    ["tú", "vas"],
+    ["él/ella/ud.", "va"],
+    ["nosotros", "vamos"],
+    ["vosotros", "vais"],
+    ["ellos/uds.", "van"]
+   ]
+  },
+  "examples": [
+   "Voy al museo.",
+   "Vas a la farmacia.",
+   "Vamos al parque."
+  ]
+ },
+ {
+  "id": "prep_lugar",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "Preposiciones de lugar",
+  "intro": "Para situar en el espacio. Muchas terminan en «de».",
+  "points": [
+   "al lado de = next to · cerca de = near · lejos de = far from",
+   "enfrente de = opposite · encima de = on · debajo de = under",
+   "entre = between · detrás de = behind · delante de = in front of"
+  ],
+  "examples": [
+   "El banco está enfrente de la iglesia.",
+   "Vivo cerca del centro.",
+   "El gato está debajo de la mesa."
+  ],
+  "tip": "de + el → del: al lado del parque, cerca del río."
+ },
+ {
+  "id": "imperativo",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "El imperativo (tú / usted) — dar direcciones",
+  "intro": "Para dar una orden o instrucción.",
+  "table": {
+   "head": ["", "girar", "seguir", "cruzar"],
+   "rows": [
+    ["(tú)", "gira", "sigue", "cruza"],
+    ["(usted)", "gire", "siga", "cruce"]
+   ]
+  },
+  "examples": [
+   "Gira a la derecha.",
+   "Sigue todo recto.",
+   "Cruce la plaza, por favor."
+  ],
+  "tip": "tú regular: quita la -s del presente (giras → gira)."
+ },
+ {
+  "id": "pron_prep",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "Pronombres con preposición (mí, ti, él…)",
+  "intro": "Después de una preposición se usan estas formas.",
+  "table": {
+   "head": ["sujeto", "con prep.", "sujeto", "con prep."],
+   "rows": [
+    ["yo", "mí", "nosotros", "nosotros"],
+    ["tú", "ti", "vosotros", "vosotros"],
+    ["él/ella", "él/ella", "ellos/ellas", "ellos/ellas"]
+   ]
+  },
+  "tip": "con + mí → conmigo · con + ti → contigo. ¿Vienes conmigo?"
+ },
+ {
+  "id": "interrogativos",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "Los interrogativos (con tilde)",
+  "intro": "Las preguntas llevan ¿ … ? y las palabras llevan tilde.",
+  "table": {
+   "head": ["palabra", "significa"],
+   "rows": [
+    ["¿qué?", "what?"],
+    ["¿quién?", "who?"],
+    ["¿dónde?", "where?"],
+    ["¿cuándo?", "when?"],
+    ["¿cómo?", "how?"],
+    ["¿por qué?", "why?"],
+    ["¿cuánto?", "how much?"]
+   ]
+  },
+  "examples": [
+   "¿Dónde está el baño?",
+   "¿Cuánto cuesta?"
+  ]
+ },
+ {
+  "id": "hora",
+  "unit": "Unidad 1",
+  "leccion": "La ciudad",
+  "dot": "#2563EB",
+  "title": "Decir la hora (es la / son las)",
+  "intro": "Es la una; son las + resto de las horas.",
+  "table": {
+   "head": ["hora", "se dice"],
+   "rows": [
+    ["1:00", "es la una"],
+    ["3:00", "son las tres"],
+    ["3:15", "son las tres y cuarto"],
+    ["3:30", "son las tres y media"],
+    ["3:45", "son las cuatro menos cuarto"]
+   ]
+  },
+  "tip": "¿A qué hora? → a la una · a las tres."
+ },
+ {
+  "id": "presente_reg",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "El presente regular: -ar / -er / -ir",
+  "intro": "Quita la terminación del infinitivo y añade las nuevas.",
+  "table": {
+   "head": ["", "hablar", "comer", "vivir"],
+   "rows": [
+    ["yo", "hablo", "como", "vivo"],
+    ["tú", "hablas", "comes", "vives"],
+    ["él/ella", "habla", "come", "vive"],
+    ["nosotros", "hablamos", "comemos", "vivimos"],
+    ["vosotros", "habláis", "coméis", "vivís"],
+    ["ellos/uds.", "hablan", "comen", "viven"]
+   ]
+  },
+  "tip": "-er y -ir solo se diferencian en nosotros y vosotros."
+ },
+ {
+  "id": "reflexivos",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "Los verbos reflexivos (levantarse)",
+  "intro": "Un pronombre (me, te, se…) antes del verbo.",
+  "table": {
+   "head": ["", "levantarse"],
+   "rows": [
+    ["yo", "me levanto"],
+    ["tú", "te levantas"],
+    ["él/ella", "se levanta"],
+    ["nosotros", "nos levantamos"],
+    ["vosotros", "os levantáis"],
+    ["ellos/uds.", "se levantan"]
+   ]
+  },
+  "tip": "Otros: ducharse, vestirse, acostarse, llamarse."
+ },
+ {
+  "id": "cambio_raiz",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "Verbos con cambio de raíz (e→ie, o→ue, e→i)",
+  "intro": "La vocal de la raíz cambia, pero NO en nosotros/vosotros.",
+  "table": {
+   "head": ["", "querer (e→ie)", "poder (o→ue)", "pedir (e→i)"],
+   "rows": [
+    ["yo", "quiero", "puedo", "pido"],
+    ["tú", "quieres", "puedes", "pides"],
+    ["él/ella", "quiere", "puede", "pide"],
+    ["nosotros", "queremos", "podemos", "pedimos"],
+    ["vosotros", "queréis", "podéis", "pedís"],
+    ["ellos/uds.", "quieren", "pueden", "piden"]
+   ]
+  },
+  "tip": "«zapato de bota»: cambia en yo/tú/él y ellos, no en nosotros/vosotros."
+ },
+ {
+  "id": "gustar",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "El verbo GUSTAR",
+  "intro": "Se usa al revés que «to like». La cosa es el sujeto.",
+  "table": {
+   "head": ["", "una cosa", "varias cosas"],
+   "rows": [
+    ["(a mí)", "me gusta", "me gustan"],
+    ["(a ti)", "te gusta", "te gustan"],
+    ["(a él/ella)", "le gusta", "le gustan"],
+    ["(a nosotros)", "nos gusta", "nos gustan"]
+   ]
+  },
+  "examples": [
+   "Me gusta el café.",
+   "Me gustan las naranjas.",
+   "Me gusta cocinar."
+  ],
+  "tip": "+ verbo → siempre singular: Me gusta bailar y cantar."
+ },
+ {
+  "id": "frecuencia",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "La frecuencia: nunca, a veces, siempre",
+  "intro": "Del menos frecuente al más frecuente.",
+  "table": {
+   "head": ["frecuencia", "palabra"],
+   "rows": [
+    ["0 %", "nunca"],
+    ["+", "a veces"],
+    ["+ +", "a menudo"],
+    ["+ + +", "siempre"]
+   ]
+  },
+  "examples": [
+   "Nunca salgo entre semana.",
+   "A veces echo la siesta.",
+   "Siempre me levanto a las siete."
+  ]
+ },
+ {
+  "id": "tiempo",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "Situar en el tiempo: de… a, hasta, cuando",
+  "intro": "Para indicar inicio, fin y duración.",
+  "points": [
+   "de … a … = from … to …",
+   "hasta = until",
+   "cuando = when · desde = since"
+  ],
+  "examples": [
+   "Trabajo de nueve a cinco.",
+   "Estudio hasta las siete.",
+   "Cuando llego a casa, ceno."
+  ]
+ },
+ {
+  "id": "demostrativos",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "Los demostrativos: este, ese, aquel",
+  "intro": "Indican distancia: cerca / medio / lejos.",
+  "table": {
+   "head": ["distancia", "masc.", "fem."],
+   "rows": [
+    ["este (aquí)", "este / estos", "esta / estas"],
+    ["ese (ahí)", "ese / esos", "esa / esas"],
+    ["aquel (allí)", "aquel / aquellos", "aquella / aquellas"]
+   ]
+  },
+  "examples": [
+   "Me gusta esta falda.",
+   "Ese abrigo es caro.",
+   "Aquellos zapatos son bonitos."
+  ]
+ },
+ {
+  "id": "posesivos",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "Los posesivos: mi, tu, su…",
+  "intro": "Concuerdan en número; nuestro/vuestro también en género.",
+  "table": {
+   "head": ["persona", "posesivo"],
+   "rows": [
+    ["yo", "mi / mis"],
+    ["tú", "tu / tus"],
+    ["él/ella/ud.", "su / sus"],
+    ["nosotros", "nuestro/a/os/as"],
+    ["vosotros", "vuestro/a/os/as"],
+    ["ellos/uds.", "su / sus"]
+   ]
+  },
+  "examples": [
+   "mi casa · mis libros",
+   "nuestra familia · nuestros amigos"
+  ]
+ },
+ {
+  "id": "adjetivos",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "El adjetivo: posición y concordancia",
+  "intro": "El adjetivo suele ir DESPUÉS del nombre y concuerda con él.",
+  "points": [
+   "concuerda en género y número: un coche rojo, una casa roja",
+   "-o → -a / +s: rojo, roja, rojos, rojas",
+   "termina en -e o consonante: igual masc./fem. (verde, azul)"
+  ],
+  "examples": [
+   "una camiseta blanca",
+   "unos zapatos negros",
+   "un vestido verde"
+  ]
+ },
+ {
+  "id": "muy_mucho",
+  "unit": "Unidad 2",
+  "leccion": "El día a día",
+  "dot": "#D97706",
+  "title": "MUY vs MUCHO",
+  "intro": "muy no cambia; mucho concuerda cuando va con un nombre.",
+  "points": [
+   "muy + adjetivo/adverbio: muy caro, muy bien (invariable)",
+   "mucho + nombre: mucho pan, mucha agua, muchos libros",
+   "verbo + mucho: como mucho (invariable)"
+  ],
+  "examples": [
+   "Es muy caro.",
+   "Hay mucha gente.",
+   "Trabajo mucho."
+  ]
+ },
+ {
+  "id": "cantidad",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "La cantidad: nada de, un poco de, mucho",
+  "intro": "Para dosificar una cantidad indeterminada.",
+  "table": {
+   "head": ["cantidad", "forma"],
+   "rows": [
+    ["0", "nada de sal"],
+    ["poco", "un poco de sal"],
+    ["mucho", "mucha sal"],
+    ["preciso", "un kilo de sal"]
+   ]
+  },
+  "tip": "un poco de + incontable: un poco de agua, un poco de pan."
+ },
+ {
+  "id": "numeros",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "Cantidades y números (un kilo de…)",
+  "intro": "Cantidad + de + nombre.",
+  "examples": [
+   "dos melones",
+   "medio kilo de tomates",
+   "una botella de agua",
+   "un paquete de arroz"
+  ],
+  "tip": "Después de una cantidad, siempre DE: un kilo de, una lata de."
+ },
+ {
+  "id": "infinitivo_receta",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "El infinitivo en las recetas",
+  "intro": "En las recetas se usa el infinitivo (instrucciones impersonales).",
+  "points": [
+   "Afirmativo: Cortar los tomates.",
+   "Negativo: no + infinitivo → No añadir sal."
+  ],
+  "examples": [
+   "Pelar las patatas.",
+   "Mezclar los ingredientes.",
+   "No cortar la cebolla."
+  ]
+ },
+ {
+  "id": "ir_a_inf",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "IR A + infinitivo (futuro próximo)",
+  "intro": "Para una acción futura (pronto o planeada).",
+  "points": [
+   "ir (presente) + a + infinitivo",
+   "Negativo: no + ir + a + infinitivo"
+  ],
+  "examples": [
+   "Voy a cocinar esta noche.",
+   "Vamos a comer en el restaurante.",
+   "No voy a salir hoy."
+  ]
+ },
+ {
+  "id": "perfecto",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "El pretérito perfecto (he + participio)",
+  "intro": "Para hablar de un pasado reciente. haber (presente) + participio.",
+  "table": {
+   "head": ["", "hablar", "comer"],
+   "rows": [
+    ["yo", "he hablado", "he comido"],
+    ["tú", "has hablado", "has comido"],
+    ["él/ella", "ha hablado", "ha comido"],
+    ["nosotros", "hemos hablado", "hemos comido"],
+    ["vosotros", "habéis hablado", "habéis comido"],
+    ["ellos/uds.", "han hablado", "han comido"]
+   ]
+  },
+  "tip": "El participio NO cambia: María ha comido, ellos han comido."
+ },
+ {
+  "id": "participios",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "Los participios (-ado, -ido, irregulares)",
+  "intro": "Cómo formar el participio pasado.",
+  "table": {
+   "head": ["infinitivo", "participio"],
+   "rows": [
+    ["verbos -ar", "-ado: hablar → hablado"],
+    ["verbos -er/-ir", "-ido: comer → comido"],
+    ["hacer", "hecho"],
+    ["decir", "dicho"],
+    ["escribir", "escrito"],
+    ["ver", "visto"]
+   ]
+  },
+  "tip": "Irregulares frecuentes: poner→puesto, volver→vuelto, abrir→abierto."
+ },
+ {
+  "id": "gerundio",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "ESTAR + gerundio (presente continuo)",
+  "intro": "Para una acción en marcha ahora mismo.",
+  "table": {
+   "head": ["infinitivo", "gerundio"],
+   "rows": [
+    ["-ar → -ando", "hablar → hablando"],
+    ["-er → -iendo", "comer → comiendo"],
+    ["-ir → -iendo", "vivir → viviendo"]
+   ]
+  },
+  "examples": [
+   "Estoy comiendo.",
+   "Está lloviendo.",
+   "Estamos estudiando español."
+  ]
+ },
+ {
+  "id": "negacion",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "La negación: no, nunca, nada, nadie",
+  "intro": "no va antes del verbo; la doble negación es correcta en español.",
+  "points": [
+   "no + verbo: No como carne.",
+   "no + verbo + nunca / nada / nadie",
+   "o al principio: Nunca como carne."
+  ],
+  "examples": [
+   "No hay nada en la nevera.",
+   "No viene nadie.",
+   "No bebo nunca alcohol."
+  ]
+ },
+ {
+  "id": "comparativos",
+  "unit": "Unidad 3",
+  "leccion": "Comer y contar",
+  "dot": "#059669",
+  "title": "Los comparativos: más… que, menos… que",
+  "intro": "Para comparar dos cosas.",
+  "table": {
+   "head": ["tipo", "forma"],
+   "rows": [
+    ["superioridad", "más … que"],
+    ["inferioridad", "menos … que"],
+    ["igualdad", "tan … como"]
+   ]
+  },
+  "examples": [
+   "El café es más caro que el té.",
+   "Como menos que tú.",
+   "Es tan alto como su padre."
+  ],
+  "tip": "Irregulares: bueno → mejor · malo → peor."
+ }
+]

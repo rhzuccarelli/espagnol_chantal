@@ -1,0 +1,1980 @@
+[
+ {
+  "id": "esenciales",
+  "label": "esenciales",
+  "dot": "#1D4ED8",
+  "verbs": [
+   {
+    "inf": "ser",
+    "en": "to be (essence)",
+    "conj": [
+     [
+      "yo",
+      "soy",
+      "/soj/"
+     ],
+     [
+      "tú",
+      "eres",
+      "/ˈeɾes/"
+     ],
+     [
+      "él/ella/ud.",
+      "es",
+      "/es/"
+     ],
+     [
+      "nosotros",
+      "somos",
+      "/ˈsomos/"
+     ],
+     [
+      "vosotros",
+      "sois",
+      "/sojs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "son",
+      "/son/"
+     ]
+    ]
+   },
+   {
+    "inf": "estar",
+    "en": "to be (state)",
+    "conj": [
+     [
+      "yo",
+      "estoy",
+      "/esˈtoj/"
+     ],
+     [
+      "tú",
+      "estás",
+      "/esˈtas/"
+     ],
+     [
+      "él/ella/ud.",
+      "está",
+      "/esˈta/"
+     ],
+     [
+      "nosotros",
+      "estamos",
+      "/esˈtamos/"
+     ],
+     [
+      "vosotros",
+      "estáis",
+      "/esˈtajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "están",
+      "/esˈtan/"
+     ]
+    ]
+   },
+   {
+    "inf": "ir",
+    "en": "to go",
+    "conj": [
+     [
+      "yo",
+      "voy",
+      "/boj/"
+     ],
+     [
+      "tú",
+      "vas",
+      "/bas/"
+     ],
+     [
+      "él/ella/ud.",
+      "va",
+      "/ba/"
+     ],
+     [
+      "nosotros",
+      "vamos",
+      "/ˈbamos/"
+     ],
+     [
+      "vosotros",
+      "vais",
+      "/bajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "van",
+      "/ban/"
+     ]
+    ]
+   },
+   {
+    "inf": "haber",
+    "en": "to have (aux.)",
+    "conj": [
+     [
+      "yo",
+      "he",
+      "/e/"
+     ],
+     [
+      "tú",
+      "has",
+      "/as/"
+     ],
+     [
+      "él/ella/ud.",
+      "ha",
+      "/a/"
+     ],
+     [
+      "nosotros",
+      "hemos",
+      "/ˈemos/"
+     ],
+     [
+      "vosotros",
+      "habéis",
+      "/aˈbejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "han",
+      "/an/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar",
+  "label": "regulares -ar",
+  "dot": "#059669",
+  "verbs": [
+   {
+    "inf": "hablar",
+    "en": "to speak",
+    "conj": [
+     [
+      "yo",
+      "hablo",
+      "/ˈablo/"
+     ],
+     [
+      "tú",
+      "hablas",
+      "/ˈablas/"
+     ],
+     [
+      "él/ella/ud.",
+      "habla",
+      "/ˈabla/"
+     ],
+     [
+      "nosotros",
+      "hablamos",
+      "/aˈblamos/"
+     ],
+     [
+      "vosotros",
+      "habláis",
+      "/aˈblajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "hablan",
+      "/ˈablan/"
+     ]
+    ]
+   },
+   {
+    "inf": "trabajar",
+    "en": "to work",
+    "conj": [
+     [
+      "yo",
+      "trabajo",
+      "/tɾaˈbaxo/"
+     ],
+     [
+      "tú",
+      "trabajas",
+      "/tɾaˈbaxas/"
+     ],
+     [
+      "él/ella/ud.",
+      "trabaja",
+      "/tɾaˈbaxa/"
+     ],
+     [
+      "nosotros",
+      "trabajamos",
+      "/tɾabaˈxamos/"
+     ],
+     [
+      "vosotros",
+      "trabajáis",
+      "/tɾabaˈxajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "trabajan",
+      "/tɾaˈbaxan/"
+     ]
+    ]
+   },
+   {
+    "inf": "estudiar",
+    "en": "to study",
+    "conj": [
+     [
+      "yo",
+      "estudio",
+      "/esˈtudjo/"
+     ],
+     [
+      "tú",
+      "estudias",
+      "/esˈtudjas/"
+     ],
+     [
+      "él/ella/ud.",
+      "estudia",
+      "/esˈtudja/"
+     ],
+     [
+      "nosotros",
+      "estudiamos",
+      "/estuˈdjamos/"
+     ],
+     [
+      "vosotros",
+      "estudiáis",
+      "/estuˈdjajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "estudian",
+      "/esˈtudjan/"
+     ]
+    ]
+   },
+   {
+    "inf": "comprar",
+    "en": "to buy",
+    "conj": [
+     [
+      "yo",
+      "compro",
+      "/ˈkompɾo/"
+     ],
+     [
+      "tú",
+      "compras",
+      "/ˈkompɾas/"
+     ],
+     [
+      "él/ella/ud.",
+      "compra",
+      "/ˈkompɾa/"
+     ],
+     [
+      "nosotros",
+      "compramos",
+      "/komˈpɾamos/"
+     ],
+     [
+      "vosotros",
+      "compráis",
+      "/komˈpɾajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "compran",
+      "/ˈkompɾan/"
+     ]
+    ]
+   },
+   {
+    "inf": "cocinar",
+    "en": "to cook",
+    "conj": [
+     [
+      "yo",
+      "cocino",
+      "/koˈθino/"
+     ],
+     [
+      "tú",
+      "cocinas",
+      "/koˈθinas/"
+     ],
+     [
+      "él/ella/ud.",
+      "cocina",
+      "/koˈθina/"
+     ],
+     [
+      "nosotros",
+      "cocinamos",
+      "/koθiˈnamos/"
+     ],
+     [
+      "vosotros",
+      "cocináis",
+      "/koθiˈnajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "cocinan",
+      "/koˈθinan/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "er",
+  "label": "regulares -er",
+  "dot": "#B45309",
+  "verbs": [
+   {
+    "inf": "comer",
+    "en": "to eat",
+    "conj": [
+     [
+      "yo",
+      "como",
+      "/ˈkomo/"
+     ],
+     [
+      "tú",
+      "comes",
+      "/ˈkomes/"
+     ],
+     [
+      "él/ella/ud.",
+      "come",
+      "/ˈkome/"
+     ],
+     [
+      "nosotros",
+      "comemos",
+      "/koˈmemos/"
+     ],
+     [
+      "vosotros",
+      "coméis",
+      "/koˈmejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "comen",
+      "/ˈkomen/"
+     ]
+    ]
+   },
+   {
+    "inf": "beber",
+    "en": "to drink",
+    "conj": [
+     [
+      "yo",
+      "bebo",
+      "/ˈbebo/"
+     ],
+     [
+      "tú",
+      "bebes",
+      "/ˈbebes/"
+     ],
+     [
+      "él/ella/ud.",
+      "bebe",
+      "/ˈbebe/"
+     ],
+     [
+      "nosotros",
+      "bebemos",
+      "/beˈbemos/"
+     ],
+     [
+      "vosotros",
+      "bebéis",
+      "/beˈbejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "beben",
+      "/ˈbeben/"
+     ]
+    ]
+   },
+   {
+    "inf": "aprender",
+    "en": "to learn",
+    "conj": [
+     [
+      "yo",
+      "aprendo",
+      "/aˈpɾendo/"
+     ],
+     [
+      "tú",
+      "aprendes",
+      "/aˈpɾendes/"
+     ],
+     [
+      "él/ella/ud.",
+      "aprende",
+      "/aˈpɾende/"
+     ],
+     [
+      "nosotros",
+      "aprendemos",
+      "/apɾenˈdemos/"
+     ],
+     [
+      "vosotros",
+      "aprendéis",
+      "/apɾenˈdejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "aprenden",
+      "/aˈpɾenden/"
+     ]
+    ]
+   },
+   {
+    "inf": "leer",
+    "en": "to read",
+    "conj": [
+     [
+      "yo",
+      "leo",
+      "/ˈleo/"
+     ],
+     [
+      "tú",
+      "lees",
+      "/ˈlees/"
+     ],
+     [
+      "él/ella/ud.",
+      "lee",
+      "/ˈlee/"
+     ],
+     [
+      "nosotros",
+      "leemos",
+      "/leˈemos/"
+     ],
+     [
+      "vosotros",
+      "leéis",
+      "/leˈejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "leen",
+      "/ˈleen/"
+     ]
+    ]
+   },
+   {
+    "inf": "correr",
+    "en": "to run",
+    "conj": [
+     [
+      "yo",
+      "corro",
+      "/ˈkoro/"
+     ],
+     [
+      "tú",
+      "corres",
+      "/ˈkores/"
+     ],
+     [
+      "él/ella/ud.",
+      "corre",
+      "/ˈkore/"
+     ],
+     [
+      "nosotros",
+      "corremos",
+      "/koˈremos/"
+     ],
+     [
+      "vosotros",
+      "corréis",
+      "/koˈrejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "corren",
+      "/ˈkoren/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ir",
+  "label": "regulares -ir",
+  "dot": "#0D9488",
+  "verbs": [
+   {
+    "inf": "vivir",
+    "en": "to live",
+    "conj": [
+     [
+      "yo",
+      "vivo",
+      "/ˈbibo/"
+     ],
+     [
+      "tú",
+      "vives",
+      "/ˈbibes/"
+     ],
+     [
+      "él/ella/ud.",
+      "vive",
+      "/ˈbibe/"
+     ],
+     [
+      "nosotros",
+      "vivimos",
+      "/biˈbimos/"
+     ],
+     [
+      "vosotros",
+      "vivís",
+      "/biˈbis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "viven",
+      "/ˈbiben/"
+     ]
+    ]
+   },
+   {
+    "inf": "escribir",
+    "en": "to write",
+    "conj": [
+     [
+      "yo",
+      "escribo",
+      "/esˈkɾibo/"
+     ],
+     [
+      "tú",
+      "escribes",
+      "/esˈkɾibes/"
+     ],
+     [
+      "él/ella/ud.",
+      "escribe",
+      "/esˈkɾibe/"
+     ],
+     [
+      "nosotros",
+      "escribimos",
+      "/eskɾiˈbimos/"
+     ],
+     [
+      "vosotros",
+      "escribís",
+      "/eskɾiˈbis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "escriben",
+      "/esˈkɾiben/"
+     ]
+    ]
+   },
+   {
+    "inf": "abrir",
+    "en": "to open",
+    "conj": [
+     [
+      "yo",
+      "abro",
+      "/ˈabɾo/"
+     ],
+     [
+      "tú",
+      "abres",
+      "/ˈabɾes/"
+     ],
+     [
+      "él/ella/ud.",
+      "abre",
+      "/ˈabɾe/"
+     ],
+     [
+      "nosotros",
+      "abrimos",
+      "/aˈbɾimos/"
+     ],
+     [
+      "vosotros",
+      "abrís",
+      "/aˈbɾis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "abren",
+      "/ˈabɾen/"
+     ]
+    ]
+   },
+   {
+    "inf": "recibir",
+    "en": "to receive",
+    "conj": [
+     [
+      "yo",
+      "recibo",
+      "/reˈθibo/"
+     ],
+     [
+      "tú",
+      "recibes",
+      "/reˈθibes/"
+     ],
+     [
+      "él/ella/ud.",
+      "recibe",
+      "/reˈθibe/"
+     ],
+     [
+      "nosotros",
+      "recibimos",
+      "/reθiˈbimos/"
+     ],
+     [
+      "vosotros",
+      "recibís",
+      "/reθiˈbis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "reciben",
+      "/reˈθiben/"
+     ]
+    ]
+   },
+   {
+    "inf": "subir",
+    "en": "to go up",
+    "conj": [
+     [
+      "yo",
+      "subo",
+      "/ˈsubo/"
+     ],
+     [
+      "tú",
+      "subes",
+      "/ˈsubes/"
+     ],
+     [
+      "él/ella/ud.",
+      "sube",
+      "/ˈsube/"
+     ],
+     [
+      "nosotros",
+      "subimos",
+      "/suˈbimos/"
+     ],
+     [
+      "vosotros",
+      "subís",
+      "/suˈbis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "suben",
+      "/ˈsuben/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "e_ie",
+  "label": "e → ie",
+  "dot": "#BE123C",
+  "verbs": [
+   {
+    "inf": "querer",
+    "en": "to want",
+    "conj": [
+     [
+      "yo",
+      "quiero",
+      "/ˈkjeɾo/"
+     ],
+     [
+      "tú",
+      "quieres",
+      "/ˈkjeɾes/"
+     ],
+     [
+      "él/ella/ud.",
+      "quiere",
+      "/ˈkjeɾe/"
+     ],
+     [
+      "nosotros",
+      "queremos",
+      "/keˈɾemos/"
+     ],
+     [
+      "vosotros",
+      "queréis",
+      "/keˈɾejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "quieren",
+      "/ˈkjeɾen/"
+     ]
+    ]
+   },
+   {
+    "inf": "pensar",
+    "en": "to think",
+    "conj": [
+     [
+      "yo",
+      "pienso",
+      "/ˈpjenso/"
+     ],
+     [
+      "tú",
+      "piensas",
+      "/ˈpjensas/"
+     ],
+     [
+      "él/ella/ud.",
+      "piensa",
+      "/ˈpjensa/"
+     ],
+     [
+      "nosotros",
+      "pensamos",
+      "/penˈsamos/"
+     ],
+     [
+      "vosotros",
+      "pensáis",
+      "/penˈsajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "piensan",
+      "/ˈpjensan/"
+     ]
+    ]
+   },
+   {
+    "inf": "empezar",
+    "en": "to begin",
+    "conj": [
+     [
+      "yo",
+      "empiezo",
+      "/emˈpjeθo/"
+     ],
+     [
+      "tú",
+      "empiezas",
+      "/emˈpjeθas/"
+     ],
+     [
+      "él/ella/ud.",
+      "empieza",
+      "/emˈpjeθa/"
+     ],
+     [
+      "nosotros",
+      "empezamos",
+      "/empeˈθamos/"
+     ],
+     [
+      "vosotros",
+      "empezáis",
+      "/empeˈθajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "empiezan",
+      "/emˈpjeθan/"
+     ]
+    ]
+   },
+   {
+    "inf": "entender",
+    "en": "to understand",
+    "conj": [
+     [
+      "yo",
+      "entiendo",
+      "/enˈtjendo/"
+     ],
+     [
+      "tú",
+      "entiendes",
+      "/enˈtjendes/"
+     ],
+     [
+      "él/ella/ud.",
+      "entiende",
+      "/enˈtjende/"
+     ],
+     [
+      "nosotros",
+      "entendemos",
+      "/entenˈdemos/"
+     ],
+     [
+      "vosotros",
+      "entendéis",
+      "/entenˈdejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "entienden",
+      "/enˈtjenden/"
+     ]
+    ]
+   },
+   {
+    "inf": "cerrar",
+    "en": "to close",
+    "conj": [
+     [
+      "yo",
+      "cierro",
+      "/ˈθjero/"
+     ],
+     [
+      "tú",
+      "cierras",
+      "/ˈθjeras/"
+     ],
+     [
+      "él/ella/ud.",
+      "cierra",
+      "/ˈθjera/"
+     ],
+     [
+      "nosotros",
+      "cerramos",
+      "/θeˈramos/"
+     ],
+     [
+      "vosotros",
+      "cerráis",
+      "/θeˈrajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "cierran",
+      "/ˈθjeran/"
+     ]
+    ]
+   },
+   {
+    "inf": "preferir",
+    "en": "to prefer",
+    "conj": [
+     [
+      "yo",
+      "prefiero",
+      "/pɾeˈfjeɾo/"
+     ],
+     [
+      "tú",
+      "prefieres",
+      "/pɾeˈfjeɾes/"
+     ],
+     [
+      "él/ella/ud.",
+      "prefiere",
+      "/pɾeˈfjeɾe/"
+     ],
+     [
+      "nosotros",
+      "preferimos",
+      "/pɾefeˈɾimos/"
+     ],
+     [
+      "vosotros",
+      "preferís",
+      "/pɾefeˈɾis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "prefieren",
+      "/pɾeˈfjeɾen/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "o_ue",
+  "label": "o → ue",
+  "dot": "#C2410C",
+  "verbs": [
+   {
+    "inf": "poder",
+    "en": "to be able to",
+    "conj": [
+     [
+      "yo",
+      "puedo",
+      "/ˈpwedo/"
+     ],
+     [
+      "tú",
+      "puedes",
+      "/ˈpwedes/"
+     ],
+     [
+      "él/ella/ud.",
+      "puede",
+      "/ˈpwede/"
+     ],
+     [
+      "nosotros",
+      "podemos",
+      "/poˈdemos/"
+     ],
+     [
+      "vosotros",
+      "podéis",
+      "/poˈdejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "pueden",
+      "/ˈpweden/"
+     ]
+    ]
+   },
+   {
+    "inf": "dormir",
+    "en": "to sleep",
+    "conj": [
+     [
+      "yo",
+      "duermo",
+      "/ˈdweɾmo/"
+     ],
+     [
+      "tú",
+      "duermes",
+      "/ˈdweɾmes/"
+     ],
+     [
+      "él/ella/ud.",
+      "duerme",
+      "/ˈdweɾme/"
+     ],
+     [
+      "nosotros",
+      "dormimos",
+      "/doɾˈmimos/"
+     ],
+     [
+      "vosotros",
+      "dormís",
+      "/doɾˈmis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "duermen",
+      "/ˈdweɾmen/"
+     ]
+    ]
+   },
+   {
+    "inf": "volver",
+    "en": "to return",
+    "conj": [
+     [
+      "yo",
+      "vuelvo",
+      "/ˈbwelbo/"
+     ],
+     [
+      "tú",
+      "vuelves",
+      "/ˈbwelbes/"
+     ],
+     [
+      "él/ella/ud.",
+      "vuelve",
+      "/ˈbwelbe/"
+     ],
+     [
+      "nosotros",
+      "volvemos",
+      "/bolˈbemos/"
+     ],
+     [
+      "vosotros",
+      "volvéis",
+      "/bolˈbejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "vuelven",
+      "/ˈbwelben/"
+     ]
+    ]
+   },
+   {
+    "inf": "contar",
+    "en": "to count / tell",
+    "conj": [
+     [
+      "yo",
+      "cuento",
+      "/ˈkwento/"
+     ],
+     [
+      "tú",
+      "cuentas",
+      "/ˈkwentas/"
+     ],
+     [
+      "él/ella/ud.",
+      "cuenta",
+      "/ˈkwenta/"
+     ],
+     [
+      "nosotros",
+      "contamos",
+      "/konˈtamos/"
+     ],
+     [
+      "vosotros",
+      "contáis",
+      "/konˈtajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "cuentan",
+      "/ˈkwentan/"
+     ]
+    ]
+   },
+   {
+    "inf": "encontrar",
+    "en": "to find",
+    "conj": [
+     [
+      "yo",
+      "encuentro",
+      "/enˈkwentɾo/"
+     ],
+     [
+      "tú",
+      "encuentras",
+      "/enˈkwentɾas/"
+     ],
+     [
+      "él/ella/ud.",
+      "encuentra",
+      "/enˈkwentɾa/"
+     ],
+     [
+      "nosotros",
+      "encontramos",
+      "/enkonˈtɾamos/"
+     ],
+     [
+      "vosotros",
+      "encontráis",
+      "/enkonˈtɾajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "encuentran",
+      "/enˈkwentɾan/"
+     ]
+    ]
+   },
+   {
+    "inf": "jugar",
+    "en": "to play",
+    "conj": [
+     [
+      "yo",
+      "juego",
+      "/ˈxwego/"
+     ],
+     [
+      "tú",
+      "juegas",
+      "/ˈxwegas/"
+     ],
+     [
+      "él/ella/ud.",
+      "juega",
+      "/ˈxwega/"
+     ],
+     [
+      "nosotros",
+      "jugamos",
+      "/xuˈgamos/"
+     ],
+     [
+      "vosotros",
+      "jugáis",
+      "/xuˈgajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "juegan",
+      "/ˈxwegan/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "e_i",
+  "label": "e → i",
+  "dot": "#7E22CE",
+  "verbs": [
+   {
+    "inf": "pedir",
+    "en": "to ask for",
+    "conj": [
+     [
+      "yo",
+      "pido",
+      "/ˈpido/"
+     ],
+     [
+      "tú",
+      "pides",
+      "/ˈpides/"
+     ],
+     [
+      "él/ella/ud.",
+      "pide",
+      "/ˈpide/"
+     ],
+     [
+      "nosotros",
+      "pedimos",
+      "/peˈdimos/"
+     ],
+     [
+      "vosotros",
+      "pedís",
+      "/peˈdis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "piden",
+      "/ˈpiden/"
+     ]
+    ]
+   },
+   {
+    "inf": "servir",
+    "en": "to serve",
+    "conj": [
+     [
+      "yo",
+      "sirvo",
+      "/ˈsiɾbo/"
+     ],
+     [
+      "tú",
+      "sirves",
+      "/ˈsiɾbes/"
+     ],
+     [
+      "él/ella/ud.",
+      "sirve",
+      "/ˈsiɾbe/"
+     ],
+     [
+      "nosotros",
+      "servimos",
+      "/seɾˈbimos/"
+     ],
+     [
+      "vosotros",
+      "servís",
+      "/seɾˈbis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "sirven",
+      "/ˈsiɾben/"
+     ]
+    ]
+   },
+   {
+    "inf": "repetir",
+    "en": "to repeat",
+    "conj": [
+     [
+      "yo",
+      "repito",
+      "/reˈpito/"
+     ],
+     [
+      "tú",
+      "repites",
+      "/reˈpites/"
+     ],
+     [
+      "él/ella/ud.",
+      "repite",
+      "/reˈpite/"
+     ],
+     [
+      "nosotros",
+      "repetimos",
+      "/repeˈtimos/"
+     ],
+     [
+      "vosotros",
+      "repetís",
+      "/repeˈtis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "repiten",
+      "/reˈpiten/"
+     ]
+    ]
+   },
+   {
+    "inf": "seguir",
+    "en": "to follow",
+    "conj": [
+     [
+      "yo",
+      "sigo",
+      "/ˈsigo/"
+     ],
+     [
+      "tú",
+      "sigues",
+      "/ˈsiges/"
+     ],
+     [
+      "él/ella/ud.",
+      "sigue",
+      "/ˈsige/"
+     ],
+     [
+      "nosotros",
+      "seguimos",
+      "/seˈgimos/"
+     ],
+     [
+      "vosotros",
+      "seguís",
+      "/seˈgis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "siguen",
+      "/ˈsigen/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "yo_go",
+  "label": "yo irregular (-go / -zco)",
+  "dot": "#0E7490",
+  "verbs": [
+   {
+    "inf": "tener",
+    "en": "to have",
+    "conj": [
+     [
+      "yo",
+      "tengo",
+      "/ˈtengo/"
+     ],
+     [
+      "tú",
+      "tienes",
+      "/ˈtjenes/"
+     ],
+     [
+      "él/ella/ud.",
+      "tiene",
+      "/ˈtjene/"
+     ],
+     [
+      "nosotros",
+      "tenemos",
+      "/teˈnemos/"
+     ],
+     [
+      "vosotros",
+      "tenéis",
+      "/teˈnejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "tienen",
+      "/ˈtjenen/"
+     ]
+    ]
+   },
+   {
+    "inf": "poner",
+    "en": "to put",
+    "conj": [
+     [
+      "yo",
+      "pongo",
+      "/ˈpongo/"
+     ],
+     [
+      "tú",
+      "pones",
+      "/ˈpones/"
+     ],
+     [
+      "él/ella/ud.",
+      "pone",
+      "/ˈpone/"
+     ],
+     [
+      "nosotros",
+      "ponemos",
+      "/poˈnemos/"
+     ],
+     [
+      "vosotros",
+      "ponéis",
+      "/poˈnejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "ponen",
+      "/ˈponen/"
+     ]
+    ]
+   },
+   {
+    "inf": "hacer",
+    "en": "to do / make",
+    "conj": [
+     [
+      "yo",
+      "hago",
+      "/ˈago/"
+     ],
+     [
+      "tú",
+      "haces",
+      "/ˈaθes/"
+     ],
+     [
+      "él/ella/ud.",
+      "hace",
+      "/ˈaθe/"
+     ],
+     [
+      "nosotros",
+      "hacemos",
+      "/aˈθemos/"
+     ],
+     [
+      "vosotros",
+      "hacéis",
+      "/aˈθejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "hacen",
+      "/ˈaθen/"
+     ]
+    ]
+   },
+   {
+    "inf": "salir",
+    "en": "to go out",
+    "conj": [
+     [
+      "yo",
+      "salgo",
+      "/ˈsalgo/"
+     ],
+     [
+      "tú",
+      "sales",
+      "/ˈsales/"
+     ],
+     [
+      "él/ella/ud.",
+      "sale",
+      "/ˈsale/"
+     ],
+     [
+      "nosotros",
+      "salimos",
+      "/saˈlimos/"
+     ],
+     [
+      "vosotros",
+      "salís",
+      "/saˈlis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "salen",
+      "/ˈsalen/"
+     ]
+    ]
+   },
+   {
+    "inf": "traer",
+    "en": "to bring",
+    "conj": [
+     [
+      "yo",
+      "traigo",
+      "/ˈtɾajgo/"
+     ],
+     [
+      "tú",
+      "traes",
+      "/ˈtɾaes/"
+     ],
+     [
+      "él/ella/ud.",
+      "trae",
+      "/ˈtɾae/"
+     ],
+     [
+      "nosotros",
+      "traemos",
+      "/tɾaˈemos/"
+     ],
+     [
+      "vosotros",
+      "traéis",
+      "/tɾaˈejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "traen",
+      "/ˈtɾaen/"
+     ]
+    ]
+   },
+   {
+    "inf": "conocer",
+    "en": "to know (people)",
+    "conj": [
+     [
+      "yo",
+      "conozco",
+      "/koˈnoθko/"
+     ],
+     [
+      "tú",
+      "conoces",
+      "/koˈnoθes/"
+     ],
+     [
+      "él/ella/ud.",
+      "conoce",
+      "/koˈnoθe/"
+     ],
+     [
+      "nosotros",
+      "conocemos",
+      "/konoˈθemos/"
+     ],
+     [
+      "vosotros",
+      "conocéis",
+      "/konoˈθejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "conocen",
+      "/koˈnoθen/"
+     ]
+    ]
+   },
+   {
+    "inf": "conducir",
+    "en": "to drive",
+    "conj": [
+     [
+      "yo",
+      "conduzco",
+      "/konˈduθko/"
+     ],
+     [
+      "tú",
+      "conduces",
+      "/konˈduθes/"
+     ],
+     [
+      "él/ella/ud.",
+      "conduce",
+      "/konˈduθe/"
+     ],
+     [
+      "nosotros",
+      "conducimos",
+      "/konduˈθimos/"
+     ],
+     [
+      "vosotros",
+      "conducís",
+      "/konduˈθis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "conducen",
+      "/konˈduθen/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "irr",
+  "label": "muy irregulares",
+  "dot": "#9D174D",
+  "verbs": [
+   {
+    "inf": "decir",
+    "en": "to say",
+    "conj": [
+     [
+      "yo",
+      "digo",
+      "/ˈdigo/"
+     ],
+     [
+      "tú",
+      "dices",
+      "/ˈdiθes/"
+     ],
+     [
+      "él/ella/ud.",
+      "dice",
+      "/ˈdiθe/"
+     ],
+     [
+      "nosotros",
+      "decimos",
+      "/deˈθimos/"
+     ],
+     [
+      "vosotros",
+      "decís",
+      "/deˈθis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "dicen",
+      "/ˈdiθen/"
+     ]
+    ]
+   },
+   {
+    "inf": "venir",
+    "en": "to come",
+    "conj": [
+     [
+      "yo",
+      "vengo",
+      "/ˈbengo/"
+     ],
+     [
+      "tú",
+      "vienes",
+      "/ˈbjenes/"
+     ],
+     [
+      "él/ella/ud.",
+      "viene",
+      "/ˈbjene/"
+     ],
+     [
+      "nosotros",
+      "venimos",
+      "/beˈnimos/"
+     ],
+     [
+      "vosotros",
+      "venís",
+      "/beˈnis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "vienen",
+      "/ˈbjenen/"
+     ]
+    ]
+   },
+   {
+    "inf": "oír",
+    "en": "to hear",
+    "conj": [
+     [
+      "yo",
+      "oigo",
+      "/ˈojgo/"
+     ],
+     [
+      "tú",
+      "oyes",
+      "/ˈoʝes/"
+     ],
+     [
+      "él/ella/ud.",
+      "oye",
+      "/ˈoʝe/"
+     ],
+     [
+      "nosotros",
+      "oímos",
+      "/oˈimos/"
+     ],
+     [
+      "vosotros",
+      "oís",
+      "/oˈis/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "oyen",
+      "/ˈoʝen/"
+     ]
+    ]
+   },
+   {
+    "inf": "dar",
+    "en": "to give",
+    "conj": [
+     [
+      "yo",
+      "doy",
+      "/doj/"
+     ],
+     [
+      "tú",
+      "das",
+      "/das/"
+     ],
+     [
+      "él/ella/ud.",
+      "da",
+      "/da/"
+     ],
+     [
+      "nosotros",
+      "damos",
+      "/ˈdamos/"
+     ],
+     [
+      "vosotros",
+      "dais",
+      "/dajs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "dan",
+      "/dan/"
+     ]
+    ]
+   },
+   {
+    "inf": "ver",
+    "en": "to see",
+    "conj": [
+     [
+      "yo",
+      "veo",
+      "/ˈbeo/"
+     ],
+     [
+      "tú",
+      "ves",
+      "/bes/"
+     ],
+     [
+      "él/ella/ud.",
+      "ve",
+      "/be/"
+     ],
+     [
+      "nosotros",
+      "vemos",
+      "/ˈbemos/"
+     ],
+     [
+      "vosotros",
+      "veis",
+      "/bejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "ven",
+      "/ben/"
+     ]
+    ]
+   },
+   {
+    "inf": "saber",
+    "en": "to know (facts)",
+    "conj": [
+     [
+      "yo",
+      "sé",
+      "/se/"
+     ],
+     [
+      "tú",
+      "sabes",
+      "/ˈsabes/"
+     ],
+     [
+      "él/ella/ud.",
+      "sabe",
+      "/ˈsabe/"
+     ],
+     [
+      "nosotros",
+      "sabemos",
+      "/saˈbemos/"
+     ],
+     [
+      "vosotros",
+      "sabéis",
+      "/saˈbejs/"
+     ],
+     [
+      "ellos/ellas/uds.",
+      "saben",
+      "/ˈsaben/"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "refl",
+  "label": "reflexivos",
+  "dot": "#4338CA",
+  "verbs": [
+   {
+    "inf": "levantarse",
+    "en": "to get up",
+    "conj": [
+     [
+      "yo me",
+      "levanto",
+      "/leˈbanto/"
+     ],
+     [
+      "tú te",
+      "levantas",
+      "/leˈbantas/"
+     ],
+     [
+      "él/ella se",
+      "levanta",
+      "/leˈbanta/"
+     ],
+     [
+      "nosotros nos",
+      "levantamos",
+      "/lebanˈtamos/"
+     ],
+     [
+      "vosotros os",
+      "levantáis",
+      "/lebanˈtajs/"
+     ],
+     [
+      "ellos/ellas se",
+      "levantan",
+      "/leˈbantan/"
+     ]
+    ]
+   },
+   {
+    "inf": "ducharse",
+    "en": "to shower",
+    "conj": [
+     [
+      "yo me",
+      "ducho",
+      "/ˈdutʃo/"
+     ],
+     [
+      "tú te",
+      "duchas",
+      "/ˈdutʃas/"
+     ],
+     [
+      "él/ella se",
+      "ducha",
+      "/ˈdutʃa/"
+     ],
+     [
+      "nosotros nos",
+      "duchamos",
+      "/duˈtʃamos/"
+     ],
+     [
+      "vosotros os",
+      "ducháis",
+      "/duˈtʃajs/"
+     ],
+     [
+      "ellos/ellas se",
+      "duchan",
+      "/ˈdutʃan/"
+     ]
+    ]
+   },
+   {
+    "inf": "llamarse",
+    "en": "to be called",
+    "conj": [
+     [
+      "yo me",
+      "llamo",
+      "/ˈʝamo/"
+     ],
+     [
+      "tú te",
+      "llamas",
+      "/ˈʝamas/"
+     ],
+     [
+      "él/ella se",
+      "llama",
+      "/ˈʝama/"
+     ],
+     [
+      "nosotros nos",
+      "llamamos",
+      "/ʝaˈmamos/"
+     ],
+     [
+      "vosotros os",
+      "llamáis",
+      "/ʝaˈmajs/"
+     ],
+     [
+      "ellos/ellas se",
+      "llaman",
+      "/ˈʝaman/"
+     ]
+    ]
+   },
+   {
+    "inf": "acostarse",
+    "en": "to go to bed",
+    "conj": [
+     [
+      "yo me",
+      "acuesto",
+      "/aˈkwesto/"
+     ],
+     [
+      "tú te",
+      "acuestas",
+      "/aˈkwestas/"
+     ],
+     [
+      "él/ella se",
+      "acuesta",
+      "/aˈkwesta/"
+     ],
+     [
+      "nosotros nos",
+      "acostamos",
+      "/akosˈtamos/"
+     ],
+     [
+      "vosotros os",
+      "acostáis",
+      "/akosˈtajs/"
+     ],
+     [
+      "ellos/ellas se",
+      "acuestan",
+      "/aˈkwestan/"
+     ]
+    ]
+   },
+   {
+    "inf": "vestirse",
+    "en": "to get dressed",
+    "conj": [
+     [
+      "yo me",
+      "visto",
+      "/ˈbisto/"
+     ],
+     [
+      "tú te",
+      "vistes",
+      "/ˈbistes/"
+     ],
+     [
+      "él/ella se",
+      "viste",
+      "/ˈbiste/"
+     ],
+     [
+      "nosotros nos",
+      "vestimos",
+      "/besˈtimos/"
+     ],
+     [
+      "vosotros os",
+      "vestís",
+      "/besˈtis/"
+     ],
+     [
+      "ellos/ellas se",
+      "visten",
+      "/ˈbisten/"
+     ]
+    ]
+   }
+  ]
+ }
+]

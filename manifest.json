@@ -1,0 +1,25 @@
+{
+  "name": "Español — Quiz",
+  "short_name": "Quiz ES",
+  "description": "Español A1 — conjugación, vocabulario, gramática y expresiones (unidades 1 a 3)",
+  "start_url": "/espagnol/",
+  "scope": "/espagnol/",
+  "display": "standalone",
+  "background_color": "#f5f5f0",
+  "theme_color": "#000000",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

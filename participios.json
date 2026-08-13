@@ -1,0 +1,322 @@
+[
+ {
+  "id": "ado",
+  "label": "regulares -ar → -ado",
+  "dot": "#059669",
+  "verbs": [
+   {
+    "inf": "hablar",
+    "pp": "hablado",
+    "ipa": "/aˈblado/",
+    "en": "to speak",
+    "type": "regular"
+   },
+   {
+    "inf": "trabajar",
+    "pp": "trabajado",
+    "ipa": "/tɾabaˈxado/",
+    "en": "to work",
+    "type": "regular"
+   },
+   {
+    "inf": "estudiar",
+    "pp": "estudiado",
+    "ipa": "/estuˈdjado/",
+    "en": "to study",
+    "type": "regular"
+   },
+   {
+    "inf": "comprar",
+    "pp": "comprado",
+    "ipa": "/komˈpɾado/",
+    "en": "to buy",
+    "type": "regular"
+   },
+   {
+    "inf": "cocinar",
+    "pp": "cocinado",
+    "ipa": "/koθiˈnado/",
+    "en": "to cook",
+    "type": "regular"
+   },
+   {
+    "inf": "estar",
+    "pp": "estado",
+    "ipa": "/esˈtado/",
+    "en": "to be",
+    "type": "regular"
+   },
+   {
+    "inf": "dar",
+    "pp": "dado",
+    "ipa": "/ˈdado/",
+    "en": "to give",
+    "type": "regular"
+   },
+   {
+    "inf": "cantar",
+    "pp": "cantado",
+    "ipa": "/kanˈtado/",
+    "en": "to sing",
+    "type": "regular"
+   },
+   {
+    "inf": "tomar",
+    "pp": "tomado",
+    "ipa": "/toˈmado/",
+    "en": "to take / drink",
+    "type": "regular"
+   },
+   {
+    "inf": "llegar",
+    "pp": "llegado",
+    "ipa": "/ʝeˈgado/",
+    "en": "to arrive",
+    "type": "regular"
+   }
+  ]
+ },
+ {
+  "id": "ido",
+  "label": "regulares -er / -ir → -ido",
+  "dot": "#B45309",
+  "verbs": [
+   {
+    "inf": "comer",
+    "pp": "comido",
+    "ipa": "/koˈmido/",
+    "en": "to eat",
+    "type": "regular"
+   },
+   {
+    "inf": "beber",
+    "pp": "bebido",
+    "ipa": "/beˈbido/",
+    "en": "to drink",
+    "type": "regular"
+   },
+   {
+    "inf": "vivir",
+    "pp": "vivido",
+    "ipa": "/biˈbido/",
+    "en": "to live",
+    "type": "regular"
+   },
+   {
+    "inf": "aprender",
+    "pp": "aprendido",
+    "ipa": "/apɾenˈdido/",
+    "en": "to learn",
+    "type": "regular"
+   },
+   {
+    "inf": "recibir",
+    "pp": "recibido",
+    "ipa": "/reθiˈbido/",
+    "en": "to receive",
+    "type": "regular"
+   },
+   {
+    "inf": "salir",
+    "pp": "salido",
+    "ipa": "/saˈlido/",
+    "en": "to go out",
+    "type": "regular"
+   },
+   {
+    "inf": "tener",
+    "pp": "tenido",
+    "ipa": "/teˈnido/",
+    "en": "to have",
+    "type": "regular"
+   },
+   {
+    "inf": "ser",
+    "pp": "sido",
+    "ipa": "/ˈsido/",
+    "en": "to be",
+    "type": "regular"
+   },
+   {
+    "inf": "ir",
+    "pp": "ido",
+    "ipa": "/ˈido/",
+    "en": "to go",
+    "type": "regular"
+   },
+   {
+    "inf": "poder",
+    "pp": "podido",
+    "ipa": "/poˈdido/",
+    "en": "to be able to",
+    "type": "regular"
+   },
+   {
+    "inf": "querer",
+    "pp": "querido",
+    "ipa": "/keˈɾido/",
+    "en": "to want",
+    "type": "regular"
+   },
+   {
+    "inf": "dormir",
+    "pp": "dormido",
+    "ipa": "/doɾˈmido/",
+    "en": "to sleep",
+    "type": "regular"
+   }
+  ]
+ },
+ {
+  "id": "ido_tilde",
+  "label": "regulares con tilde: -ído",
+  "dot": "#0D9488",
+  "verbs": [
+   {
+    "inf": "leer",
+    "pp": "leído",
+    "ipa": "/leˈido/",
+    "en": "to read",
+    "type": "regular",
+    "note": "hiato — tilde en la í"
+   },
+   {
+    "inf": "creer",
+    "pp": "creído",
+    "ipa": "/kɾeˈido/",
+    "en": "to believe",
+    "type": "regular",
+    "note": "hiato — tilde en la í"
+   },
+   {
+    "inf": "oír",
+    "pp": "oído",
+    "ipa": "/oˈido/",
+    "en": "to hear",
+    "type": "regular",
+    "note": "hiato — tilde en la í"
+   },
+   {
+    "inf": "traer",
+    "pp": "traído",
+    "ipa": "/tɾaˈido/",
+    "en": "to bring",
+    "type": "regular",
+    "note": "hiato — tilde en la í"
+   },
+   {
+    "inf": "caer",
+    "pp": "caído",
+    "ipa": "/kaˈido/",
+    "en": "to fall",
+    "type": "regular",
+    "note": "hiato — tilde en la í"
+   }
+  ]
+ },
+ {
+  "id": "to",
+  "label": "irregulares en -to",
+  "dot": "#BE123C",
+  "verbs": [
+   {
+    "inf": "escribir",
+    "pp": "escrito",
+    "ipa": "/esˈkɾito/",
+    "en": "to write",
+    "type": "irregular"
+   },
+   {
+    "inf": "ver",
+    "pp": "visto",
+    "ipa": "/ˈbisto/",
+    "en": "to see",
+    "type": "irregular"
+   },
+   {
+    "inf": "poner",
+    "pp": "puesto",
+    "ipa": "/ˈpwesto/",
+    "en": "to put",
+    "type": "irregular"
+   },
+   {
+    "inf": "volver",
+    "pp": "vuelto",
+    "ipa": "/ˈbwelto/",
+    "en": "to return",
+    "type": "irregular"
+   },
+   {
+    "inf": "abrir",
+    "pp": "abierto",
+    "ipa": "/aˈbjeɾto/",
+    "en": "to open",
+    "type": "irregular"
+   },
+   {
+    "inf": "morir",
+    "pp": "muerto",
+    "ipa": "/ˈmweɾto/",
+    "en": "to die",
+    "type": "irregular"
+   },
+   {
+    "inf": "romper",
+    "pp": "roto",
+    "ipa": "/ˈroto/",
+    "en": "to break",
+    "type": "irregular"
+   },
+   {
+    "inf": "cubrir",
+    "pp": "cubierto",
+    "ipa": "/kuˈbjeɾto/",
+    "en": "to cover",
+    "type": "irregular"
+   },
+   {
+    "inf": "devolver",
+    "pp": "devuelto",
+    "ipa": "/deˈbwelto/",
+    "en": "to give back",
+    "type": "irregular"
+   },
+   {
+    "inf": "resolver",
+    "pp": "resuelto",
+    "ipa": "/reˈswelto/",
+    "en": "to solve",
+    "type": "irregular"
+   }
+  ]
+ },
+ {
+  "id": "cho",
+  "label": "irregulares en -cho",
+  "dot": "#9D174D",
+  "verbs": [
+   {
+    "inf": "hacer",
+    "pp": "hecho",
+    "ipa": "/ˈetʃo/",
+    "en": "to do / make",
+    "type": "irregular"
+   },
+   {
+    "inf": "decir",
+    "pp": "dicho",
+    "ipa": "/ˈditʃo/",
+    "en": "to say",
+    "type": "irregular"
+   },
+   {
+    "inf": "deshacer",
+    "pp": "deshecho",
+    "ipa": "/deˈsetʃo/",
+    "en": "to undo",
+    "type": "irregular"
+   }
+  ]
+ }
+]

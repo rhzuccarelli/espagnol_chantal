@@ -1,0 +1,180 @@
+[
+ {
+  "id": "informar",
+  "label": "informarse sobre un lugar",
+  "dot": "#2563EB",
+  "phrases": [
+   "¿Qué hay para visitar por aquí?",
+   "¿Dónde está, exactamente?",
+   "¿Hay metro? ¿Hay autobús?",
+   "¿Está lejos de aquí?"
+  ]
+ },
+ {
+  "id": "describir_lugar",
+  "label": "describir un lugar",
+  "dot": "#2563EB",
+  "phrases": [
+   "En mi ciudad hay un parque muy grande.",
+   "Al lado de la escuela hay un museo.",
+   "Aquí está el piso.",
+   "Allí, al sur, está el puerto.",
+   "Y al lado, la catedral."
+  ]
+ },
+ {
+  "id": "pedir_camino",
+  "label": "pedir el camino",
+  "dot": "#2563EB",
+  "phrases": [
+   "Perdone, ¿dónde está la calle Mayor?",
+   "Estoy buscando la estación. ¿Está lejos?",
+   "¿Cómo se va al centro?",
+   "¿Puede repetir, por favor?"
+  ]
+ },
+ {
+  "id": "indicar_camino",
+  "label": "indicar el camino",
+  "dot": "#2563EB",
+  "phrases": [
+   "Gira a la izquierda, en esa calle.",
+   "Sigue todo recto.",
+   "Está a unos 200 metros.",
+   "Es la segunda calle a la derecha.",
+   "Cruza la plaza; está al lado."
+  ]
+ },
+ {
+  "id": "proponer",
+  "label": "proponer un plan",
+  "dot": "#2563EB",
+  "phrases": [
+   "¿Vienes con nosotros al cine?",
+   "¿Estás libre el domingo?",
+   "Si quieres, tomamos algo y luego vamos al cine.",
+   "¿Te apetece dar un paseo?"
+  ]
+ },
+ {
+  "id": "aceptar_rechazar",
+  "label": "aceptar / rechazar una invitación",
+  "dot": "#2563EB",
+  "phrases": [
+   "¡Vale, de acuerdo!",
+   "Perfecto, voy a la una.",
+   "Mañana por la tarde no puedo.",
+   "Termino de trabajar a las ocho.",
+   "Lo siento, esta vez no puedo."
+  ]
+ },
+ {
+  "id": "quedar",
+  "label": "quedar (fijar una cita)",
+  "dot": "#2563EB",
+  "phrases": [
+   "¿Quedamos a la una?",
+   "A la una está bien.",
+   "¿Cuándo? — El sábado por la noche.",
+   "¿Dónde quedamos? — En la plaza."
+  ]
+ },
+ {
+  "id": "rutina",
+  "label": "describir tu rutina",
+  "dot": "#D97706",
+  "phrases": [
+   "Trabajo de lunes a viernes.",
+   "Por la mañana siempre me levanto a las siete.",
+   "Me ducho y me visto.",
+   "Trabajo de nueve a cinco.",
+   "A mediodía como.",
+   "Por la tarde hago la compra.",
+   "Nunca salgo entre semana.",
+   "Limpio la casa y friego los platos."
+  ]
+ },
+ {
+  "id": "compra",
+  "label": "hacer la compra",
+  "dot": "#D97706",
+  "phrases": [
+   "Quería un kilo de tomates.",
+   "¿Me pone medio kilo de fresas?",
+   "¿Algo más? — Nada más, gracias.",
+   "¿Cuánto es todo?"
+  ]
+ },
+ {
+  "id": "precio",
+  "label": "preguntar / dar el precio",
+  "dot": "#D97706",
+  "phrases": [
+   "¿Cuánto cuesta el melón?",
+   "¿A cuánto están las naranjas?",
+   "2 euros el kilo.",
+   "Hay una oferta: ¡tres por seis euros!",
+   "¡Qué caro!"
+  ]
+ },
+ {
+  "id": "ropa",
+  "label": "comprar ropa",
+  "dot": "#D97706",
+  "phrases": [
+   "Hola, ¿le puedo ayudar?",
+   "Perdone, ¿puedo probarme esta falda?",
+   "¿Qué talla usa? — La 38.",
+   "¿Qué número calza? — El 39.",
+   "¿Tienen sombreros? — Sí, sígame."
+  ]
+ },
+ {
+  "id": "espacio",
+  "label": "situar objetos en el espacio",
+  "dot": "#D97706",
+  "phrases": [
+   "¿Dónde están las botas?",
+   "Están debajo de la ropa.",
+   "Delante están los pantalones.",
+   "Detrás de la caja están las camisetas."
+  ]
+ },
+ {
+  "id": "restaurante",
+  "label": "pedir en el restaurante",
+  "dot": "#059669",
+  "phrases": [
+   "Una mesa para dos, por favor.",
+   "¿Nos trae la carta, por favor?",
+   "De primero, quería una ensalada.",
+   "¿Qué tienen para beber?",
+   "La cuenta, por favor.",
+   "¿Han elegido ya? — Sí, …"
+  ]
+ },
+ {
+  "id": "postal",
+  "label": "escribir una postal",
+  "dot": "#059669",
+  "phrases": [
+   "Querida Ana: / Querido Marcos:",
+   "¡Un saludo desde Sevilla!",
+   "¿Qué tal? Yo estoy muy bien.",
+   "Este fin de semana visito la ciudad y voy de compras.",
+   "Y tú, ¿todo bien?",
+   "Un abrazo, / Besos,"
+  ]
+ },
+ {
+  "id": "acontecimiento",
+  "label": "contar un acontecimiento",
+  "dot": "#059669",
+  "phrases": [
+   "Hace cinco meses, Antonio le pidió matrimonio a Julia.",
+   "Primero, … Luego, … Después, … Por último, …",
+   "¡Sorpresa! Julia lloró y los amigos aplaudieron.",
+   "¡Fue precioso!"
+  ]
+ }
+]
