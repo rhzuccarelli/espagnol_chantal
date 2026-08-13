@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Quiz ES">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<title>español — quiz</title>
+<script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);})();</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:      #f5f5f0;
+  --surface: #ffffff;
+  --rule:    #000000;
+  --rule-lt: #d0d0c8;
+  --text:    #000000;
+  --muted:   #666666;
+  --faint:   #aaaaaa;
+  --mono:    'Courier New', 'Lucida Console', monospace;
+}
+
+:root[data-theme="dark"] {
+  --bg:      #1a1a18;
+  --surface: #242420;
+  --rule:    #d0d0c8;
+  --rule-lt: #3a3a36;
+  --text:    #e0e0d8;
+  --muted:   #888880;
+  --faint:   #555550;
+}
+
+.te-theme-btn {
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  padding: 3px 8px;
+  border: 1px solid var(--rule-lt);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.te-theme-btn:hover { border-color: var(--rule); color: var(--text); }
+
+html, body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px 80px;
+}
+
+/* ── HEADER ── */
+.te-header {
+  width: 100%;
+  max-width: 640px;
+  border-top: 2px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 48px;
+}
+
+.te-title {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+}
+
+.te-subtitle {
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  font-family: var(--mono);
+}
+
+/* ── INTRO ── */
+.te-intro {
+  width: 100%;
+  max-width: 640px;
+  margin-bottom: 40px;
+}
+
+.te-intro-label {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: lowercase;
+  color: var(--faint);
+  font-family: var(--mono);
+  margin-bottom: 8px;
+}
+
+.te-intro-heading {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+/* ── SECTION LABEL ── */
+.te-section {
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 40px 0 14px;
+}
+.te-section:first-of-type { margin-top: 0; }
+.te-section-name {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: lowercase;
+  color: var(--muted);
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.te-section-rule { flex: 1; height: 1px; background: var(--rule-lt); }
+.te-section-count {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+
+/* ── GRID ── */
+.te-grid {
+  width: 100%;
+  max-width: 640px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 420px) {
+  .te-grid { grid-template-columns: 1fr; }
+}
+
+/* ── CARD ── */
+.te-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.1s;
+  cursor: pointer;
+}
+
+.te-card:hover {
+  background: var(--rule);
+  color: #fff;
+}
+
+.te-card:hover .te-card-meta,
+.te-card:hover .te-card-count,
+.te-card:hover .te-card-arrow {
+  color: rgba(255,255,255,0.6);
+}
+
+.te-card:hover .te-card-dot {
+  border-color: rgba(255,255,255,0.3);
+}
+
+.te-card-head {
+  border-bottom: 1px solid var(--rule-lt);
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.te-card:hover .te-card-head {
+  border-bottom-color: rgba(255,255,255,0.15);
+}
+
+.te-card-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.te-card-tag {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: lowercase;
+  color: var(--muted);
+  font-family: var(--mono);
+}
+
+.te-card-body {
+  padding: 20px 16px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.te-card-name {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+
+.te-card-desc {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.5;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.te-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.te-card-count {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--faint);
+}
+
+.te-card-arrow {
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1;
+}
+
+/* ── FOOTER ── */
+.te-footer {
+  width: 100%;
+  max-width: 640px;
+  margin-top: 48px;
+  border-top: 1px solid var(--rule-lt);
+  padding-top: 12px;
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--faint);
+  letter-spacing: 0.08em;
+}
+</style>
+</head>
+<body>
+
+<header class="te-header">
+  <span class="te-title">español — quiz</span>
+  <span class="te-subtitle">a1 · repaso</span>
+  <button class="te-theme-btn" id="theme-btn" onclick="toggleTheme()">dark</button>
+</header>
+
+<div class="te-intro">
+  <div class="te-intro-label">elige un ejercicio</div>
+  <div class="te-intro-heading">¿qué<br>repasamos hoy?</div>
+</div>
+
+<div class="te-section">
+  <span class="te-section-name">conjugación</span>
+  <span class="te-section-rule"></span>
+  <span class="te-section-count">presente · participios</span>
+</div>
+
+<div class="te-grid">
+
+  <a class="te-card" href="spanish-verbs-quiz.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#2563EB;"></span>
+      <span class="te-card-tag">presente de indicativo</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">verbos<br>en presente</div>
+      <div class="te-card-desc">Conjuga verbos regulares e irregulares en presente.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">53 verbos · 318 formas</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-participios-quiz.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#0369A1;"></span>
+      <span class="te-card-tag">pretérito perfecto</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">participios<br>pasados</div>
+      <div class="te-card-desc">Practica los participios y di si son regulares o irregulares.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">40 verbos frecuentes</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-verbs-cheatsheet.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#6B7280;border-radius:0;"></span>
+      <span class="te-card-tag">presente · referencia</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">chuleta<br>de verbos</div>
+      <div class="te-card-desc">Terminaciones por grupo: -ar, -er, -ir y las familias irregulares.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">10 grupos</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-verbs-learn.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#2563EB;border-radius:0;"></span>
+      <span class="te-card-tag">presente · aprendizaje</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">verbos<br>flashcards</div>
+      <div class="te-card-desc">Revela la conjugación y marca lo que ya sabes. Progreso guardado.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">53 verbos · 318 formas</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-participios-learn.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#0369A1;border-radius:0;"></span>
+      <span class="te-card-tag">participios · aprendizaje</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">participios<br>flashcards</div>
+      <div class="te-card-desc">Memoriza los participios pasados a tu ritmo, regulares e irregulares.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">40 verbos frecuentes</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+<div class="te-section">
+  <span class="te-section-name">unidades 1 · 2 · 3</span>
+  <span class="te-section-rule"></span>
+  <span class="te-section-count">vocabulario · gramática</span>
+</div>
+
+<div class="te-grid">
+
+  <a class="te-card" href="spanish-vocab-learn.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#D97706;"></span>
+      <span class="te-card-tag">vocabulario · aprendizaje</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">vocabulario<br>flashcards</div>
+      <div class="te-card-desc">Memoriza el vocabulario por temas. Sentido es↔en, progreso guardado.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">267 palabras · 15 temas</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-vocab-quiz.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#D97706;border-radius:0;"></span>
+      <span class="te-card-tag">vocabulario · opción múltiple</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">vocabulario<br>quiz</div>
+      <div class="te-card-desc">Test de opción múltiple en los dos sentidos. Puntos, rachas y estadísticas.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">267 palabras · test</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-gramatica.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#2563EB;border-radius:0;"></span>
+      <span class="te-card-tag">gramática · referencia</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">gramática<br>chuleta</div>
+      <div class="te-card-desc">Fichas de reglas: ser/estar, artículos, presente, perfecto… Filtrables por unidad.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">29 fichas</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-gramatica-quiz.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#2563EB;"></span>
+      <span class="te-card-tag">gramática · quiz</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">gramática<br>quiz</div>
+      <div class="te-card-desc">Preguntas tipo examen con la corrección explicada en cada respuesta.</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">60 preguntas</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="te-card" href="spanish-expresiones.html">
+    <div class="te-card-head">
+      <span class="te-card-dot" style="background:#059669;"></span>
+      <span class="te-card-tag">comunicación · referencia</span>
+    </div>
+    <div class="te-card-body">
+      <div class="te-card-name">expresiones<br>útiles</div>
+      <div class="te-card-desc">El «kit de frases» para hablar y escribir: pedir, proponer, comprar, contar…</div>
+      <div class="te-card-footer">
+        <span class="te-card-count">73 frases · 15 situaciones</span>
+        <span class="te-card-arrow">→</span>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+<footer class="te-footer">español · a1 · conjugación · vocabulario · gramática</footer>
+
+<script>
+function toggleTheme() {
+  const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const next = dark ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  document.getElementById('theme-btn').textContent = dark ? 'dark' : 'light';
+}
+(function(){
+  const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.getElementById('theme-btn').textContent = dark ? 'light' : 'dark';
+})();
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'});
+  navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload());
+}
+</script>
+</body>
+</html>
